@@ -147,6 +147,7 @@ export async function handleGetTweet(
         'public_metrics',
         'referenced_tweets',
         'conversation_id',
+            'note_tweet',
               ],
       expansions: ['author_id', 'referenced_tweets.id'],
       'user.fields': ['name', 'username'],
